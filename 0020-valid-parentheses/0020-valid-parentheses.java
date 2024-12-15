@@ -1,5 +1,6 @@
 class Solution {
     public boolean isValid(String s) {
+         if(s.length()%2!=0 ) return false;
          Stack<Character> temp= new Stack<>();
          temp.push(s.charAt(0));
          int i=1;
